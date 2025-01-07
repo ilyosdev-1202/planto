@@ -1,0 +1,26 @@
+nav{
+    top: 0px;
+    position: sticky !important;
+    /* background-color: saddlebrown; */
+    /* backdrop-filter: blur(15px); */
+    margin: 10px 40px;
+    border-radius: 40px;
+}
+.bar{
+    width: 40%;
+    /* background-color: azure; */
+    height: 100%;
+}
+.td{
+    text-decoration: none;
+    color: #522b5b;
+    padding: 15px;
+    transition: all 1s;
+    border-radius: 10px;
+    /* background-color: aqua; */
+}
+.td:hover{
+    color: #2b124c;
+    border: 10px solid #2b124c;
+    
+}

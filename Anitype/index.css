@@ -1,0 +1,224 @@
+*{
+    /* flex: 1 1 calc(50% - 20px); Telefonlar uchun kenglikni 50% qiladi */
+  /* margin: 10px; */
+}
+.ota{
+    width: 100%;
+    height: 400vh;
+    background-color: #06141B;
+}
+.nabar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+.navbar{
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    /* border: 2px solid rgba(255, 255, 255, 0.18); */
+    width: 100%;
+}
+.navbar button{
+    z-index: 4;
+}
+.Biblateka{
+    background-color: #06141B;
+}
+.qidiruv{
+    background-color: #4A5C6A;
+    backdrop-filter: blur(30px);
+    /* box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37); */
+}
+.a{
+    text-decoration: none;
+    margin-left: 50px;
+}
+.ab{
+    text-decoration: none;
+    color: white;
+}
+.big_banner{
+    width: 100%;
+    object-fit: cover;
+    transition: .3s;
+}
+.about{
+    top: 500px;
+    left: 100px;
+    position: absolute;
+    /* background-color: blue; */
+}
+.rek{
+    width: 100%;
+    height: max-content;
+    /* background-color: rebeccapurple; */
+    position: relative;
+}
+.blich{
+    /* background-color: red; */
+    position: relative;
+    width: 400px;
+    transition: all 0.1s;
+}
+.blich:hover{
+    z-index: 3;
+}
+.ss{
+    padding: 20px;
+}
+.baho{
+    position: absolute;
+    left: 20px;
+}
+.round{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.round:hover{
+    transform: scale(1.1,1.1);
+}
+.ss{
+    display: flex;
+    justify-content: space-around;
+}
+.sozdat{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.bli{
+    width: 350px;
+    height: 200px;
+    background-color: #00000070;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+.bli:hover{
+    transform: scale(1.1,1.1);
+}
+.muted{
+    display: flex;
+    
+    justify-content: space-around;
+    position: absolute;
+    
+}
+.viyo{
+    border-radius: 20px;
+}
+.in{
+    border: none;
+    color: white;
+    height: 50px;
+    background-color: #06141B;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.qidiruvchi{
+    width: 100%;
+    /* left: 25%; */
+    display: flex;
+    justify-content: space-around;
+}
+.nmad{
+    display: none;
+    width: 900px;
+    height: 400px;
+    background-color: #06141B;
+    border-radius: 10px;
+}
+.apl{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.roun{
+    width: 150px;
+    border-radius: 10px;
+}
+.item{
+    margin: 10px;
+}
+.PA{
+    display: none;
+    width: 800px;
+    height: 400px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    background-color: #06141B;
+}
+
+.ian{
+    /* position: absolute; */
+    /* right: 0; 
+    top: 0; */
+    border: none;
+    color: white;
+    height: 50px;
+    background-color: #06141B;
+    border-radius: 5px;
+    outline: 0;
+}
+.iana{
+    border: none;
+    color: white;
+    height: 50px;
+    background-color: #06141B;
+    border-radius: 5px;
+    outline: 0;
+}
+#chatBox {
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+#chatBox p {
+    padding: 5px;
+    margin: 0;
+}
+.chattiki[type="text"] {
+    width: 75%;
+    height: 100px;
+    padding: 10px;
+    /* margin-right: 10px;   */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.chatt {
+    height: 100px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.chatt:hover {
+    background-color: #0056b3;
+}
+.pastki{
+    gap: 10px;
+    display: flex;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    bottom: 10px;
+}

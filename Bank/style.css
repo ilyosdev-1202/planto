@@ -1,0 +1,96 @@
+.nav-in{
+    width: 30%;
+}
+nav{
+    position: sticky !important;
+    top: 0;
+    backdrop-filter: blur(15px);
+    z-index: 5;
+}
+.td{
+    text-decoration: none;
+    color: gray;
+    transition: all 0.5s;
+}
+.td:hover{
+    color: #ffc107;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+.pas{
+    font-size: 20px;
+    color: gray;
+}
+.AU, .CS, #CT{
+    height: 100vh;
+}
+.dumaloq{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.purple{
+    background-color: purple;
+}
+.gold{
+    background-color: gold;
+}
+.white{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.xammasi{
+    border: #ffc107 3px solid;
+    padding: 20px;
+    border-radius: 20px;
+}
+.Contact{
+    margin-top: 20px;
+    width: 100% !important;
+    background-color: #ffc107;
+}
+.d1{
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 350px;
+    /* background-color: red; */
+    height: 250px;
+    display: flex;
+    /* align-items: center; */
+    position: relative;
+    border: #ffc107 1px solid;
+}
+.QoshTrno{
+    color: #ffc107;
+    position: absolute;
+    font-size: 50px;
+    top: -20px;
+    right: 10px;
+}
+.brat{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.brathaqida{
+    
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.dumalo{
+    width: 25px;
+    height: 25px;
+    background-color: #ffc107;
+    border-radius: 50%;
+}
